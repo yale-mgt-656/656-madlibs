@@ -28,7 +28,7 @@ The clone url is displayed on GitHub, above the repository file browser.
 
 Checkout a new branch with a good name. This will be a command like
 ```
-  git checkout -b new-verbs
+  git checkout -b kyle-new-verbs
 ```
 
 Here, I named my branch "new-verbs". You should name yours something different, no spaces.
@@ -111,7 +111,7 @@ where `BRANCHNAME` is the name of your branch.
 
 **11) The instructor will merge in everybody's work.**
 
-Bother Kyle or the TAs if nothing's working.
+Bother Kyle or the TAs if nothing's working. Or, put a post-it note on your laptop and we'll come around to you.
 
 ## Some hopefully helpful notes
 
