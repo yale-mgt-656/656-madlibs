@@ -13,4 +13,14 @@ module.exports.verbs = [
     'initiate',
     'present',
     'drink',
+    'crash',
+    'claw',
+    'scratch',
+    'swear',
+    'overhear',
+    'order',
+    'kill',
+    'sell',
+    
+    
 ];
