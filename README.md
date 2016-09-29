@@ -5,33 +5,38 @@ For this activity, you will use what you've learned about git to work collaborat
 
 **1) Form a group with your neighbors.**
 
+You should choose one person whose computer you will use. This person will end up registering for GitHub and Cloud9.
+
 **2) Make a Github account if you haven't already got one.**
+
+This should be a personal account for the person whose computer is being used.
 
 **3) Fork the starter repository on Github.**
 
 Forking means to make a copy of the code but attach it to your own Github repository so that you can make changes.
 Technically you are "cloning" the starter repo. GitHub calls this "forking" because they add some other
-bells and whistles on top.
-  * Find the Madlibs code here: [https://github.com/yale-cpsc-113/CPSC113-madlibs](https://github.com/yale-cpsc-113/CPSC113-madlibs)
+bells and whistles on top. You should see a grey button at the top that says "fork"---that is what you want.
 
-  If you need more information, check out [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
+If you need more information, check out [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
 
-**4) Login to [cloud9](https://c9.io/).  Or, follow [these instructions](https://github.com/yale-cpsc-113/cpsc113-madlibs/wiki/Setting-up-Git-on-a-Mac.) to setup your Mac with Git.**
+**4) Login to [cloud9](https://c9.io/).**
 
-You can create a cloud9 account by linking to GitHub.  Then, create a custom workspace, cloning from your forked repo.
+You may have an invite to cloud9 from the instructor. Or, you may already have an account. Once you're in
+Cloud9, you'll want to link it to your GitHub account.
+Then, create a custom workspace, cloning from your forked repo.
 
-If working locally, run `git clone <url>`.
-
-The clone url is displayed on GitHub, above the repository file browser.
+(Of course, you can do all these locally on your computer if you are advanced,
+instead of using Cloud9.)
 
 **5) Pick whether you guys will be a story, verb, noun, adjective, or adverb group.**
 
+The instructor may ask you to pick a particular one.
 Checkout a new branch with a good name. This will be a command like
 ```
   git checkout -b kyle-new-verbs
 ```
 
-Here, I named my branch "new-verbs". You should name yours something different, no spaces.
+Here, I named my branch "kyle-new-verbs". You should name yours something different, no spaces.
 
 **6) Take a look around at the files ***
 
@@ -42,7 +47,7 @@ directories and `ls` to see what is each directory.
 
 Technically, you can also edit existing files, but that will make our merging harder!
 If you want to make a new file of verbs, you might make a file at
-`CPSC113-madlibs/pos/verbs/my-new-file.js` and it might look like this:
+`/pos/verbs/my-new-file.js` and it might look like this:
 
 ```javascript
 module.exports.verbs = [
@@ -52,7 +57,7 @@ module.exports.verbs = [
 ];
 ```
 
-You can use the command `nano` to create and edit files.  You may also use the cloud9 editor, or a local text editor you have installed, like [atom](https://atom.io/).
+You should choose a name other than "my-new-file.js". You can use the command `nano` to create and edit files, or use the Cloud9 editor.  You may also use the cloud9 editor, or a local text editor you have installed, like [atom](https://atom.io/).
 
 For example `nano pos/verbs/my-new-file.js` will create the file `my-new-file.js` in the directory `pos/verbs`.
 
@@ -65,7 +70,8 @@ npm install
 ./node_modules/.bin/gulp
 ```
 
-The app is now accessible at `127.0.0.1:3000` in your browser.  Ensure
+The app is now accessible at `127.0.0.1:3000` in your browser if you're running
+locally. If not, you should click "preview" in Cloud9 to see your app.  Ensure
 your changes didn't introduce any errors.
 
 **9) Commit your changes and share them**
