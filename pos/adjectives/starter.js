@@ -1,5 +1,14 @@
 module.exports.adjectives = [
     'short',
     'crafty',
-    'wiley'
+    'wiley',
+    'Handsome',
+    'Gray',
+    'SOM',
+    'Raul',
+    'Awesome',
+    'Much win',
+    'So edgy',
+    'High Energy',
+    
 ];
