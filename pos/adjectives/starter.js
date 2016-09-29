@@ -2,7 +2,13 @@ module.exports.adjectives = [
     'short',
     'crafty',
     'wiley',
-    'fat',
+    'Handsome',
+    'Gray',
+    'SOM',
     'Raul',
-    'SOM'
+    'Awesome',
+    'Much win',
+    'So edgy',
+    'High Energy',
+    
 ];
