@@ -34,6 +34,6 @@ app.get('/:template', function(req, res) {
 });
 
 
-var server = app.listen(process.env.PORT, function () {
+var server = app.listen(PORT, function () {
   console.log('Example app listening at http://%s:%s', IP, PORT);
 });
