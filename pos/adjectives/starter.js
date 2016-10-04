@@ -1,5 +1,10 @@
 module.exports.adjectives = [
     'short',
     'crafty',
-    'wiley'
+    'wiley',
+    'happy',
+    'boring',
+    'stupid',
+    'naive',
+    'simple',
 ];
