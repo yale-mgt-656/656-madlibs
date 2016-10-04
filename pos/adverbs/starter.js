@@ -1,5 +1,8 @@
 module.exports.adverbs = [
   'quickly',
   'foolishly',
-  'coyly'
+  'coyly',
+  'randomly',
+  'mysteriously',
+  'slowly',
 ];
