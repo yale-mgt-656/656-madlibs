@@ -5,12 +5,12 @@ module.exports.nouns = [
   'candyman',
   'Ted',
   'fork',
-  'orang utan',
+  'orang-utan',
   'Scylla',
   'Charybdis',
   'papyrus',
   'Elon Musk',
-  'Tanzania',
+  'Jeff Bezos',
   'Svalbard',
-  'Harry Potter'
+  'Cthulhu'
   ];
